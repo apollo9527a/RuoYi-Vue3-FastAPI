@@ -58,7 +58,6 @@ handle_middleware(app)
 # 加载全局异常处理方法
 handle_exception(app)
 
-
 # 加载路由列表
 controller_list = [
     {'router': loginController, 'tags': ['登录模块']},
